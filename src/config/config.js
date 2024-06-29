@@ -1,6 +1,6 @@
 module.exports = {
 	API_URL:
 		process.env.NODE_ENV === "production"
-			? "http://localhost:8080"
+			? "https://skailamaassignment.onrender.com"
 			: "http://localhost:8080",
 };
