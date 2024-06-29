@@ -1,12 +1,9 @@
 import React, { useState } from "react";
-
 import { FaSortDown, FaRegBell } from "react-icons/fa6";
 import { SlHome } from "react-icons/sl";
 import united from "../assets/united-kingdom.png";
 import GeneralTabConfig from "./GeneralTabConfig";
 import DisplayTabConfig from "./DisplayTabConfig";
-import { SlPencil } from "react-icons/sl";
-import { BiZoomIn } from "react-icons/bi";
 
 const Configuration = () => {
 	const [selectedCategory, setSelectedCategory] = useState("general");

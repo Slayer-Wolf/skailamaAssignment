@@ -41,7 +41,6 @@ export const Modal = ({
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
-					// Add any additional headers as needed
 				},
 				body: JSON.stringify({
 					episodeName: sampleName,
@@ -57,7 +56,6 @@ export const Modal = ({
 			window.location.reload();
 		} catch (error) {
 			console.error("Error creating project:", error.message);
-			// Handle error scenarios here
 		}
 	};
 	const createProject = async () => {
@@ -69,7 +67,6 @@ export const Modal = ({
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",
-					// Add any additional headers as needed
 				},
 				body: JSON.stringify({
 					userId: user._id,

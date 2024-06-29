@@ -30,9 +30,7 @@ const Sidenav = () => {
 						viewBox="0 0 53 53"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
-					>
-						{/* Your SVG paths here */}
-					</svg>
+					></svg>
 					<p className="text-3xl">LAMA.</p>{" "}
 				</h1>
 				<p className="font-semibold text-[14px] text-black mt-4 ml-4">
