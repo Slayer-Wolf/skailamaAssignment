@@ -16,7 +16,7 @@ app.use("/episodes", episodeRoutes);
 let mongoURI;
 if (process.env.NODE_ENV === "production") {
 	mongoURI =
-		"mongodb+srv://jhammer228:<password>@skailama.xlrp5rs.mongodb.net/?retryWrites=true&w=majority&appName=skailama";
+		"mongodb+srv://jhammer228:<password>@skailama.xlrp5rs.mongodb.net/?retryWrites=true";
 } else {
 	mongoURI = "mongodb://localhost:27017/skailama";
 }
