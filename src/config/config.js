@@ -1,6 +1,8 @@
+var backendApi = process.env.BACKEND_API_URL;
+
 module.exports = {
 	API_URL:
 		process.env.NODE_ENV === "production"
-			? "https://skailamaassignment.onrender.com"
+			? backendApi
 			: "http://localhost:8080",
 };

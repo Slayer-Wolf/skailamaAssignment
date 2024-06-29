@@ -12,11 +12,10 @@ app.use(bodyParser.json());
 app.use("/projects", projectRoutes);
 app.use("/user", userRoutes);
 app.use("/episodes", episodeRoutes);
-
+const mongoUrl = process.env.MONGO_URL;
 let mongoURI;
 if (process.env.NODE_ENV === "production") {
-	mongoURI =
-		"mongodb+srv://jhammer228:Tardshin1211@skailama.xlrp5rs.mongodb.net/?retryWrites=true";
+	mongoURI = mongoUrl;
 } else {
 	mongoURI = "mongodb://localhost:27017/skailama";
 }
